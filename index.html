@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d32">
+  <meta name="description" content="Catering for weddings, parties and special events. Explore our menu and request a custom quote.">
+  <title>FeastCraft | Wedding & Event Catering</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">WEDDINGS · PARTIES · CORPORATE EVENTS · PRIVATE CELEBRATIONS</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="FeastCraft home"><span class="brand-mark">FC</span><span><strong>FEASTCRAFT</strong><small>FOOD • CELEBRATIONS • MEMORIES</small></span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#services">Services</a><a href="#menu">Our Food</a><a href="#gallery">Gallery</a><a href="#about">About</a><a class="nav-cta" href="#booking">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">MADE FOR YOUR MOMENTS</p>
+        <h1>Good food.<br><em>Beautiful</em> celebrations.</h1>
+        <p class="hero-copy">Memorable catering for weddings, parties and every occasion worth celebrating. Tell us your plans — we’ll help make the menu special.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#booking">Plan Your Event <span>↗</span></a><a class="text-link" href="#gallery">Explore our work ↓</a></div>
+        <div class="hero-note"><span class="dot"></span> CUSTOM MENUS · PERSONAL SERVICE · MADE WITH CARE</div>
+      </div>
+      <div class="hero-card"><span>YOUR DAY, YOUR MENU</span><strong>Let’s make it<br>delicious.</strong><a href="#booking">Start planning →</a></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div><p class="eyebrow dark">WELCOME TO FEASTCRAFT</p><h2>Every gathering<br>deserves <em>great food.</em></h2></div>
+      <div class="intro-text"><p>From the first welcome drink to the final dessert, we help you host with confidence. Choose your favourites, tell us about your guests, and request a menu tailored to your celebration.</p><p class="signature">Your celebration. Our passion.</p></div>
+    </section>
+
+    <section class="services section-wrap" id="services">
+      <div class="section-heading"><div><p class="eyebrow dark">WHAT WE DO</p><h2>Made for every <em>occasion.</em></h2></div><p>Thoughtful menus, warm hospitality and the details that bring people together.</p></div>
+      <div class="service-grid">
+        <article class="service-card wedding"><div class="service-number">01</div><div><h3>Weddings</h3><p>Celebrate your big day with a menu your guests will remember.</p><a href="#booking">Plan wedding catering ↗</a></div></article>
+        <article class="service-card parties"><div class="service-number">02</div><div><h3>Parties & Birthdays</h3><p>From intimate family gatherings to lively milestone parties.</p><a href="#booking">Plan a party ↗</a></div></article>
+        <article class="service-card events"><div class="service-number">03</div><div><h3>Corporate & Events</h3><p>Reliable food service for meetings, launches and special events.</p><a href="#booking">Plan an event ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="food section-wrap" id="menu">
+      <div class="section-heading"><div><p class="eyebrow">A TASTE OF THE MENU</p><h2>Something for <em>everyone.</em></h2></div><p>Use these categories as a starting point. Your final menu and pricing can be discussed with our team.</p></div>
+      <div class="food-grid">
+        <article class="food-card"><div class="food-image food-one"><span>01 / WELCOME</span></div><h3>Welcome Drinks & Starters</h3><p>Refreshing drinks, snacks and crowd favourites.</p></article>
+        <article class="food-card"><div class="food-image food-two"><span>02 / MAIN COURSE</span></div><h3>Signature Main Course</h3><p>Vegetarian and non-vegetarian options for your guests.</p></article>
+        <article class="food-card"><div class="food-image food-three"><span>03 / SWEET ENDING</span></div><h3>Desserts & Live Counters</h3><p>Sweet treats and live food counters for a memorable finish.</p></article>
+      </div>
+      <p class="menu-disclaimer">Menu availability, ingredients, dietary needs and prices are confirmed when your event is discussed.</p>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow dark">A LOOK AT OUR WORK</p><h2>Food, people & <em>memories.</em></h2></div><p>Add your own event photos and videos here to show customers what you do.</p></div>
+        <div class="gallery-grid" id="gallery-grid">
+          <div class="gallery-tile tile-large"><div class="tile-caption"><span>01</span><strong>Wedding celebrations</strong></div></div>
+          <div class="gallery-tile tile-two"><div class="tile-caption"><span>02</span><strong>Beautiful food</strong></div></div>
+          <div class="gallery-tile tile-three"><div class="tile-caption"><span>03</span><strong>Special gatherings</strong></div></div>
+          <div class="gallery-tile tile-four"><div class="tile-caption"><span>04</span><strong>Made with care</strong></div></div>
+        </div>
+        <div class="photo-uploader" id="feastcraft-photo-uploader">
+          <h3>Add your event photos</h3>
+          <p>Choose photos from your phone, preview them, then add them to this gallery.</p>
+          <label class="photo-picker" for="feastcraft-photo-input">Choose photos and videos</label>
+          <input id="feastcraft-photo-input" type="file" accept="image/*,video/*" multiple>
+          <div id="feastcraft-photo-preview" class="photo-preview" aria-live="polite"></div>
+          <button type="button" class="button button-dark" id="feastcraft-add-photos">Add to Gallery</button>
+          <p class="photo-upload-note">Preview and gallery additions are temporary in this browser. To publish photos permanently, add them to your website's images folder and upload the updated site.</p>
+        </div>
+        <p class="gallery-help">To add your own media, follow the simple instructions in <strong>README.txt</strong> included with this website.</p>
+      </div>
+    </section>
+
+    <section class="booking section-wrap" id="booking">
+      <div class="booking-copy"><p class="eyebrow">LET'S START PLANNING</p><h2>Tell us about<br>your <em>event.</em></h2><p>Share a few details and we’ll prepare your enquiry message. You can send it to us on WhatsApp to discuss menu, availability and pricing.</p><div class="booking-points"><span>✓ Custom menu discussion</span><span>✓ Wedding & event enquiries</span><span>✓ Guest-count based planning</span></div></div>
+      <form id="booking-form" class="booking-form">
+        <div class="form-title"><span>EVENT ENQUIRY</span><small>Fields marked * are required</small></div>
+        <label>Your name *<input name="name" required placeholder="Enter your full name"></label>
+        <div class="form-row"><label>Phone number *<input name="phone" required type="tel" placeholder="+91 98765 43210"></label><label>Event type *<select name="eventType" required><option value="">Choose event</option><option>Wedding</option><option>Engagement</option><option>Birthday party</option><option>Family function</option><option>Corporate event</option><option>Other celebration</option></select></label></div>
+        <div class="form-row"><label>Event date<input name="date" type="date"></label><label>Approx. guests<input name="guests" type="number" min="1" placeholder="e.g. 150"></label></div>
+        <label>Event location<input name="location" placeholder="Area / city / venue"></label>
+        <label>Food preferences & details<textarea name="details" rows="3" placeholder="Veg / non-veg, menu ideas, service needs, budget range…"></textarea></label>
+        <button class="button button-dark" type="submit">Send Enquiry on WhatsApp <span>↗</span></button>
+        <p class="form-note">This form opens WhatsApp with your details. It does not take payment or confirm a booking.</p>
+        <p id="form-message" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top"><a class="brand footer-brand" href="#home"><span class="brand-mark">FC</span><span><strong>FEASTCRAFT</strong><small>FOOD • CELEBRATIONS • MEMORIES</small></span></a><p>Good food brings everyone together.</p><a class="footer-cta" href="#booking">Let's plan your event ↗</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> FeastCraft Catering. All rights reserved.</span><span>Weddings · Parties · Events</span><span><a href="#home">Back to top ↑</a></span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
